@@ -8,17 +8,35 @@
 <p style="text-align: center;">&nbsp;</p>
 
 <form>
-   <p style="text-align: center;">Athlete 1:<br /> <input name="a1" type="text" /><br /> School 1:<br /> <input name="s1" type="text" /></p>
+   <p style="text-align: center;">Athlete 1:<br /> 
+   	<input name="a1" type="text" />
+   	<br /> School 1:<br /> 
+		<select name="dropdown">
+			<option value="Brown" selected>Maths</option>
+			<option value="Columbia">Physics</option>
+			<option value="Cornell" >Maths</option>
+			<option value="Dartmouth">Maths</option>
+			<option value="Harvard">Physics</option>
+			<option value="Penn">Maths</option>
+			<option value="Princeton">Physics</option>
+			<option value="Yale">Physics</option>
+   </p>
 </form>
 
 <form>
-   <p style="text-align: center;">Athlete 2:<br /> <input name="a1" type="text" /><br /> School 2:<br /> <input name="s1" type="text" /></p>
+   <p style="text-align: center;">Athlete 2:<br /> 
+   	<input name="a2" type="text" />
+   	<br /> School 2:<br /> 
+   	<input name="s2" type="text" />
+   </p>
 </form>
 
 <form action="runProgram">
-   <p style="text-align: center;"><input type="submit" value="Search for Connection" /></p>
+   <p style="text-align: center;">
+   	<input type="submit" value="Search for Connection" />
+   </p>
 </form>
 
 <p style="text-align: center;">&nbsp;</p>
 
-<p style="text-align: center;">Searching....</p>
+<p style="text-align: center;" name="output">Searching....</p>

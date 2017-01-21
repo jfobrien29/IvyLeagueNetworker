@@ -3,6 +3,6 @@
   "description": "Find out your connections to other Ivy League Athletes!",
   "image": "heroku/python",
   "repository": "https://github.com/jfobrien29/IvyLeagueNetworker",
-  "keywords": ["python", "django" ],
+  "keywords": ["python", "django", "ivy", "league", "network" ],
   "addons": [ "heroku-postgresql" ]
 }
